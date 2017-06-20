@@ -3,4 +3,5 @@ num=int(input("Please input an integer: "))
 mon=num // 30
 days=num % 30
 print("Month: {}, Day: {}".format(mon, days))
-print("Month: {}, Day: {}".format(*divmod(num, 30))
+divmod1=divmod(num, 30)
+print("Month: {}, Day: {}".format(*divmod(num, 30)))
